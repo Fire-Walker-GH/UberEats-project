@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uber Eats</title>
+    <link rel="stylesheet" href="styles_restaurant.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="header__content col-lg-12">
+          <div class="header__logo">
+            <a href="#top" class="logo__anchor"
+              ><img src="img/logo.png" alt="Logo"
+            /></a>
+          </div>
+          <div class="header__menu">
+            <ul class="menu__content">
+              <li>
+                <button class="login_button"><b>Войти</b></button>
+              </li>
+              <li>
+                <a href="#"><img src="img/basket.png" alt="Basket" /></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <a class="button_up" href="#top"><img src="img/arrow.svg" alt="" /></a>
+
+    <main>
+      <div class="jumbotron">
+        <div class="container">
+          <div class="restaurant_box col-xs-12 col-md-7 col-lg-4">
+            <div class="restaurant_box__name">Трактир «Пушкин»</div>
+            <div class="restaurant_box__info">
+              <div class="restaurant_box__food">₽₽₽ • Европейская</div>
+              <div class="restaurant_box__time">40 - 50 мин</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="filter_bar">
+        <div class="container">
+          <div class="filter_bar__list">
+            <ul class="filter_bar__options">
+              <li>Закуски</li>
+              <li>Салаты</li>
+              <li>Супы</li>
+              <li>Горячие блюда</li>
+              <li>Гарниры</li>
+              <li>Десерты</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <section class="menu">
+        <div class="container">
+          <div class="menu__title">Закуски</div>
+          <div class="menu__items">
+            <div class="menu_card col-xs-12 col-md-12 col-lg-6">
+              <div class="menu_card__container">
+                <div class="menu_card__info">
+                  <div class="name_price">
+                    <div class="menu_card__name">
+                      Сельдь на бородинском хлебе
+                    </div>
+                    <div class="menu_card__name_extra">С яйцом и огурцом</div>
+                    <div class="menu_card__price">240 ₽</div>
+                  </div>
+                </div>
+                <img class="menu_card__img" src="img/snack1.png" alt="" />
+              </div>
+            </div>
+
+            <div class="menu_card col-xs-12 col-md-12 col-lg-6">
+              <div class="menu_card__container">
+                <div class="menu_card__info">
+                  <div class="name_price">
+                    <div class="menu_card__name">Соленья ассорти</div>
+                    <div class="menu_card__name_extra"></div>
+                    <div class="menu_card__price">320 ₽</div>
+                  </div>
+                </div>
+                <img class="menu_card__img" src="img/snack2.png" alt="" />
+              </div>
+            </div>
+
+            <div class="menu_card col-xs-12 col-md-12 col-lg-6">
+              <div class="menu_card__container">
+                <div class="menu_card__info">
+                  <div class="name_price">
+                    <div class="menu_card__name">Грибы маринованные</div>
+                    <div class="menu_card__name_extra"></div>
+                    <div class="menu_card__price">300 ₽</div>
+                  </div>
+                </div>
+                <img class="menu_card__img" src="img/snack3.png" alt="" />
+              </div>
+            </div>
+
+            <div class="menu_card col-xs-12 col-md-12 col-lg-6">
+              <div class="menu_card__container">
+                <div class="menu_card__info">
+                  <div class="name_price">
+                    <div class="menu_card__name">Сало домашнее с горчицей</div>
+                    <div class="menu_card__name_extra"></div>
+                    <div class="menu_card__price">320 ₽</div>
+                  </div>
+                </div>
+                <img class="menu_card__img" src="img/snack4.png" alt="" />
+              </div>
+            </div>
+
+            <div class="menu_card col-xs-12 col-md-12 col-lg-6">
+              <div class="menu_card__container">
+                <div class="menu_card__info">
+                  <div class="name_price">
+                    <div class="menu_card__name">Малосольная семга</div>
+                    <div class="menu_card__name_extra"></div>
+                    <div class="menu_card__price">390 ₽</div>
+                  </div>
+                </div>
+                <img class="menu_card__img" src="img/snack5.png" alt="" />
+              </div>
+            </div>
+
+            <div class="menu_card col-xs-12 col-md-12 col-lg-6">
+              <div class="menu_card__container">
+                <div class="menu_card__info">
+                  <div class="name_price">
+                    <div class="menu_card__name">Язык говяжий с хреном</div>
+                    <div class="menu_card__name_extra"></div>
+                    <div class="menu_card__price">350 ₽</div>
+                  </div>
+                </div>
+                <img class="menu_card__img" src="img/snack6.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="container">
+          <div class="footer_content">
+            <img src="img/white-logo.png" alt="" />
+            <div class="site_info">
+              <div class="language_media col-xs-7 col-md-3 col-lg-3">
+                <div class="select_box">
+                  <img src="img/world.png" alt="" />
+                  <select
+                    name="language"
+                    id="language_select"
+                    class="col-xs-7 col-md-10 col-lg-10"
+                  >
+                    <option value="russian">Русский</option>
+                    <option value="english">Английский</option>
+                  </select>
+                </div>
+                <div class="social_box">
+                  <span class="hashtag">#</span
+                  ><span class="uber_eats">UberEats</span>
+                  <div class="social_box__pages">
+                    <img class="media_source" src="img/facebook.png" alt="" />
+                    <img class="media_source" src="img/twitter.png" alt="" />
+                    <img class="media_source" src="img/instagram.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="about_company col-xs-7 col-md-4 col-lg-3">
+                <div class="company_info">
+                  <p>Об UberEats</p>
+                  <p>Станьте партнёром по доставке</p>
+                  <p>Станьте парнёром-рестораном</p>
+                </div>
+              </div>
+              <div class="company_help col-xs-12 col-md-3 col-lg-3">
+                <div class="company_help__options">
+                  <p>Все города</p>
+                  <p>Цены</p>
+                  <p>Помощь</p>
+                  <p>FAQs</p>
+                </div>
+              </div>
+            </div>
+            <div class="download_options">
+              <a href="#"
+                ><img
+                  class="download_option"
+                  src="img/Download_AppStore.png"
+                  alt=""
+              /></a>
+              <a href="#"
+                ><img
+                  class="download_option"
+                  src="img/Download_PlayMarket.png"
+                  alt=""
+              /></a>
+            </div>
+            <div class="personal_data col-xs-7 col-md-10 col-lg-11">
+              <p>© 2017 Uber Technologies Inc.</p>
+              <p>Обработка персональных данных</p>
+              <p>Пользовательское соглашение</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

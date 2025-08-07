@@ -1,0 +1,262 @@
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+.header {
+  box-shadow: 0px 0px 16px 0px rgba(34, 60, 80, 0.2);
+  background-color: #ffffff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__content {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+li {
+  margin-right: 20px;
+}
+
+.login_button {
+  font-size: 13px;
+  padding: 10px 17px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  border-width: 2px;
+  border-color: #e0e0e0;
+  border-style: solid;
+  transition: all 0.2s ease-in;
+}
+
+.login_button:hover {
+  background-color: #e6e6e6;
+}
+
+.login_button:active {
+  background-color: #cacaca;
+}
+
+.button_up {
+  position: fixed;
+  background-color: #59bd5a;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 20px;
+  right: 20px;
+  transition: all 0.2s ease-in;
+}
+
+.button_up:hover {
+  background-color: #429244;
+}
+
+.button_up:active {
+  background-color: #316b33;
+}
+
+.search {
+  margin-top: 100px;
+}
+
+.search__bar {
+  font-size: 16px;
+  width: 100%;
+  color: #626262;
+  border: none;
+  border-bottom: 1px solid #626262;
+  outline: none;
+}
+
+.moscow_restaurants {
+  margin-top: 50px;
+}
+
+.moscow_restaurants__title {
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.moscow_restaurants__cards {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.restaurant_card {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.restaurant_card__details {
+  padding-bottom: 20px;
+  transition: all 0.1s ease-in;
+}
+
+.restaurant_card__details:hover {
+  background-color: #e0e0e0;
+}
+
+.restaurant_card__img {
+  width: 373px;
+  height: 256px;
+}
+
+.restaurant_card__name {
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+  padding-top: 10px;
+}
+
+.restaurant_card__info {
+  font-size: 14px;
+  font-weight: 400;
+  color: #626262;
+  margin-top: 7px;
+}
+
+.restaurant_card__time {
+  font-size: 13px;
+  font-weight: 400;
+  color: #626262;
+  margin-top: 7px;
+}
+
+footer {
+  background-color: #262626;
+}
+
+.footer_content {
+  padding: 50px 0;
+}
+
+.site_info {
+  margin: 40px 0;
+  padding-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  border-right: none;
+  border-left: none;
+}
+
+.select_box {
+  background-color: #3b3b3b;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+select {
+  background-color: #3b3b3b;
+  color: white;
+  font-size: 13px;
+  border-radius: 2px;
+  border-style: none;
+  padding-right: 150px;
+}
+
+.social_box {
+  margin-top: 30px;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.hashtag {
+  color: green;
+}
+
+.uber_eats {
+  color: white;
+}
+
+.social_box__pages {
+  margin-top: 20px;
+}
+
+.media_source {
+  margin-right: 10px;
+}
+
+.about_company {
+  display: flex;
+  justify-content: space-between;
+}
+
+.company_info {
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.company_info p {
+  padding-top: 0;
+  padding-bottom: 20px;
+}
+
+.company_help {
+}
+
+.company_help__options {
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.company_help__options p {
+  padding-top: 0;
+  padding-bottom: 20px;
+}
+
+.download_options {
+  display: flex;
+  justify-content: center;
+  border-color: #ffffff;
+  border-width: 1px;
+  border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+
+.download_option {
+  margin: 0 20px;
+  width: 135px;
+  height: 40px;
+}
+
+.personal_data {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 11px;
+  font-weight: 400;
+  padding-right: 160px;
+}
