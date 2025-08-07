@@ -1,0 +1,348 @@
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+.header {
+  box-shadow: 0px 0px 16px 0px rgba(34, 60, 80, 0.2);
+  background-color: #ffffff;
+
+  width: 100%;
+  top: 0;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__content {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+li {
+  margin-right: 20px;
+}
+
+.login_button {
+  font-size: 13px;
+  padding: 10px 17px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  border-width: 2px;
+  border-color: #e0e0e0;
+  border-style: solid;
+  transition: all 0.2s ease-in;
+}
+
+.login_button:hover {
+  background-color: #e6e6e6;
+}
+
+.login_button:active {
+  background-color: #cacaca;
+}
+
+.button_up {
+  position: fixed;
+  background-color: #59bd5a;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 20px;
+  right: 20px;
+  transition: all 0.2s ease-in;
+}
+
+.button_up:hover {
+  background-color: #429244;
+}
+
+.button_up:active {
+  background-color: #316b33;
+}
+
+.search {
+  margin-top: 100px;
+}
+
+.jumbotron {
+  background-image: url(restaurant_bg.png);
+  background-position: center;
+  background-size: cover;
+  padding: 100px 0;
+}
+
+.restaurant_box {
+  padding: 50px;
+  font-size: 36px;
+  background-color: #ffffff;
+}
+
+@media (max-width: 575px) {
+  .restaurant_box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .restaurant_box__name {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .restaurant_box__info {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+.restaurant_box__name {
+  margin-bottom: 60px;
+  padding-left: 40px;
+}
+
+.restaurant_box__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 20px;
+}
+
+.restaurant_box__food {
+  font-size: 14px;
+}
+
+.restaurant_box__time {
+  padding: 7px 15px;
+  border-radius: 20px;
+  color: #ffffff;
+  background-color: black;
+  font-size: 13px;
+}
+
+@media (max-width: 575px) {
+  .filter_bar {
+    display: none;
+  }
+}
+
+.filter_bar {
+  border-bottom: solid #75757533;
+}
+
+.filter_bar__list {
+  padding: 20px 0;
+}
+
+.filter_bar__options {
+  display: flex;
+  padding: 0;
+}
+
+.filter_bar__options li {
+  font-size: 16px;
+  margin-right: 60px;
+  list-style: none;
+}
+
+@media (max-width: 575px) {
+  .menu__title {
+    text-align: center;
+    border-bottom: solid #75757533;
+    padding-bottom: 20px;
+  }
+}
+
+.menu {
+  margin: 60px 0;
+}
+
+.menu__items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.menu__title {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.menu_card {
+}
+
+.menu_card__container {
+  border-color: #757575;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  transition: all 0.2s ease-in;
+}
+
+.menu_card__container:hover {
+  background-color: #a4a4a4;
+}
+
+.menu_сard__info {
+  height: 100%;
+}
+
+.name_price {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding-left: 20px;
+}
+
+.menu_card__name {
+  font-size: 16px;
+  padding-top: 20px;
+}
+
+.menu_card__name_extra {
+  font-size: 13px;
+}
+
+.menu_card__price {
+  display: flex;
+  align-items: flex-end;
+  font-size: 15px;
+  height: 100%;
+  padding-bottom: 20px;
+}
+
+.menu_card__img {
+  width: 170px;
+  height: 160px;
+}
+
+footer {
+  background-color: #262626;
+}
+
+.footer_content {
+  padding: 50px 0;
+}
+
+.site_info {
+  margin: 40px 0;
+  padding-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  border-right: none;
+  border-left: none;
+}
+
+.select_box {
+  background-color: #3b3b3b;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+select {
+  background-color: #3b3b3b;
+  color: white;
+  font-size: 13px;
+  border-radius: 2px;
+  border-style: none;
+  padding-right: 150px;
+}
+
+.social_box {
+  margin-top: 30px;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.hashtag {
+  color: green;
+}
+
+.uber_eats {
+  color: white;
+}
+
+.social_box__pages {
+  margin-top: 20px;
+}
+
+.media_source {
+  margin-right: 10px;
+}
+
+.about_company {
+  display: flex;
+  justify-content: space-between;
+}
+
+.company_info {
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.company_info p {
+  padding-top: 0;
+  padding-bottom: 20px;
+}
+
+.company_help {
+}
+
+.company_help__options {
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.company_help__options p {
+  padding-top: 0;
+  padding-bottom: 20px;
+}
+
+.download_options {
+  display: flex;
+  justify-content: center;
+  border-color: #ffffff;
+  border-width: 1px;
+  border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+
+.download_option {
+  margin: 0 20px;
+  width: 135px;
+  height: 40px;
+}
+
+.personal_data {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 11px;
+  font-weight: 400;
+  padding-right: 160px;
+}
